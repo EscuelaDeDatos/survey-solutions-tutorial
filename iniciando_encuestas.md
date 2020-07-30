@@ -15,31 +15,36 @@ Designer es la herramienta de Survey Solutions con la que se diseña el cuestion
 
 Lo primero a saber es que Designer es una herramienta online y puedes acceder a ella [aquí](https://designer.mysurvey.solutions/Identity/Account/Login?ReturnUrl=%2F).
 
-Imagen 1
+<p align="center">
+  <img width="950" src="./imagenes/imagen -1.PNG">
+</p>
 
 Para registrarte en la plataforma sólo es necesario hacer click en “Registrar” o “Register” y llenar la información que se solicita (en el espacio “Login” poner un nombre de usuario). Una vez que hayas llenado la información, recibirás un correo de confirmación y luego podrás acceder.
 
 
-### **Pantalla principal **
+### **Pantalla principal**
 
 Después de ingresar tu nombre de usuario y contraseña, aparece la pantalla principal. En ella se muestran los menús de **“My questionnaires”**, que muestra una lista de todos los cuestionarios que hemos creado (nos aparecerá en blanco porque no hemos creado ninguno);** “Questionnaires shared with me”** que muestra una lista de cuestionarios creados por alguien más y que nos hayan compartido; **“Public questionnaires”** donde podremos encontrar ejemplos de cuestionarios de diferentes tipos que han sido creados por el equipo de Survey Solutions y usuarios avanzados para que puedan ser usados como base por los usuarios menos experimentados;** “Classifications”** que nos facilita grupos de preguntas que son comúnmente usadas en diferentes tipos de cuestionario, según su temática; y por último, la opción de** “Create new”** que es con la que podemos comenzar a diseñar nuestro cuestionario.
 
-Imagen 2
-
+<p align="center">
+  <img width="950" src="./imagenes/imagen-2.png">
+</p>
 
 ### **Crear un cuestionario / Create new**
 
 Al hacer clic en “CREATE NEW” nos aparecerá una ventana donde pondremos el título y el nombre de la variable para el cuestionario. Después de seleccionar un título y un nombre de variable, podemos comenzar. 
 
-Imagen 3
+<p align="center">
+  <img width="950" src="./imagenes/imagen-3.png">
+</p>
 
 El nombre de variable es sólo el nombre que tendrá el archivo (no debe contener espacios) una vez que hayamos hecho la recolección de datos y exportemos nuestra base de datos. Al hacer esto, entraremos al menú principal de diseño del cuestionario.
 
-Imagen 4
+<p align="center">
+  <img width="950" src="./imagenes/imagen-4.png">
+</p>
 
 En esta pantalla podemos ver que tenemos la opción de agregar diferentes elementos al cuestionario, que son:
-
-
 
 *   Secciones (en el menú de 3 líneas horizontales de la izquierda)
 *   Preguntas / Add question
@@ -50,12 +55,13 @@ En esta pantalla podemos ver que tenemos la opción de agregar diferentes elemen
 
 Vamos a hablar ahora sobre qué es cada uno, qué elementos tienen y para qué sirven.
 
-
 ### **Crear una pregunta**
 
 _La parte más importante de todo cuestionario son las preguntas._ Para crear una pregunta, sólo debemos dar clic en **“add question”**. Al hacer esto, vamos a ver una serie de espacios para llenar. Lo primero que hay que hacer es seleccionar el **tipo de pregunta**, ya que algunas de las demás opciones van a variar en dependencia de esto. Designer nos permite escoger entre **11 diferentes tipos de pregunta** (ver imagen abajo): Categórica, de selección única y de selección múltiple, numérica, fecha, texto, GPS, lista, código de barra, foto, audio y mapas. En esta entrada vamos a enfocarnos en los tipos de pregunta más esenciales y comúnmente utilizadas.
 
-Imagen 5
+<p align="center">
+  <img width="950" src="./imagenes/imagen-5.png">
+</p>
 
 Lo siguiente que debemos hacer es escribir el **nombre de la variable** (variable name), que es el que aparecerá en la base de datos una vez que hayamos hecho nuestra encuesta y exportado los datos. Escribimos también la **etiqueta** (variable label), que es una descripción de lo que esa variable va a contener en la base de datos, y escribimos el **texto de la pregunta** (questions text). El texto de la pregunta puede contener la respuesta de alguna pregunta anterior, escribiendo el nombre de variable de esa pregunta entre signos porcentuales (%). Vamos a crear 7 preguntas nuevas, con las que comenzaremos a formar nuestro cuestionario de prueba. 
 
@@ -65,27 +71,33 @@ Video: Demo Survey Solutions
 
 Una vez que termines de replicar el video, tendrás una vista como esta, donde el tipo de la pregunta está indicado por un símbolo al lado izquierdo del nombre de la pregunta y en verde al lado derecho aparece el nombre de la variable que hemos colocado para esa pregunta.
 
-Imagen 6
+<p align="center">
+  <img width="950" src="./imagenes/imagen-6.png">
+</p>
 
 A continuación, para las preguntas de selección (única o múltiple), se debe escribir las opciones de respuesta con su respectivo valor. Este valor es el que va a tener la variable en la base de datos. En el caso de nuestro ejemplo, la pregunta sobre el **tipo de vivienda** es una pregunta de selección única. Vamos a asignarle las categorías de respuesta: **1, Casa; 2, Apartamento; 3, Cuarto; 4, Rancho o choza; 5, Vivienda improvisada.** En la siguiente imagen podemos ver que estas categorías ya fueron creadas.
 
-Imagen 7
+<p align="center">
+  <img width="950" src="./imagenes/imagen-7.png">
+</p>
 
 Al crear variables numéricas también es posible definir** valores específicos de respuesta**, usando la opción de “special values”. Esto se usa para cuando se tiene que escribir que no sabe o no responde en preguntas numéricas como la edad o los ingresos. También para las preguntas numéricas debemos especificar si queremos que la respuesta sea **solo en números enteros o que admita decimales**, usando la casilla de “integer”. Para nuestro ejemplo, vamos a colocar el valor 99 para indicar que “No sabe” para las preguntas numéricas: **personas que habitan en la vivienda, miembros del núcleo familiar, cuartos de la vivienda **y **dormitorios de la vivienda. ** Igualmente para todas ellas vamos a indicar que se trata de números enteros, marcando la casilla “integer”, tal como se muestra en la siguiente imagen.
 
-Imagen 8
+<p align="center">
+  <img width="950" src="./imagenes/imagen-8.png">
+</p>
 
 Ahora vamos a hablar de las opciones para control de calidad de datos. Éstas son las **condiciones habilitantes** (enabling condition) y las **condiciones de validación **(add new validation rule). Estas opciones están disponibles para cualquier pregunta, sin importar el tipo. Las condiciones habilitantes sirven para preguntas que sólo queremos que sean respondidas en algunos casos (por ejemplo: mostrar pregunta 8 sólo si la respuesta anterior es “Sí”). Las condiciones de validación sirven para limitar la respuesta que se puede dar a una pregunta y así evitar que se ingresen respuestas incorrectas por error o respuestas que no tengan sentido. En la imagen se muestra el espacio donde podemos escribir estas condiciones. Designer permite agregar hasta un máximo de 10 condiciones de validación para cada pregunta.
 
-Imagen 9
+<p align="center">
+  <img width="950" src="./imagenes/imagen-9.png">
+</p>
 
 Para poder usar cualquiera de estas dos opciones, es necesario escribir una regla que le indica a la plataforma qué condiciones se deben cumplir, ya sea para que la pregunta aparezca o no, en el caso de los flujos, o para determinar qué respuestas son válidas y cuáles no, en el caso de las condiciones de validación. Para escribir estas reglas, Designer usa el lenguaje de programación C#, pero no es necesario tener un conocimiento avanzado de este lenguaje para poder escribir la mayoría de las reglas que podemos necesitar en un cuestionario. A continuación, vamos a explicar algunas de las funciones más esenciales que se necesita conocer para poder escribir estas reglas, y luego escribiremos algunas reglas para nuestro cuestionario de prueba.
-
 
 ### **Funciones aritméticas**
 
 Al escribir las reglas podemos usar las funciones aritméticas básicas: suma, resta, multiplicación, división, igualdad, desigualdad, menor que, mayor que.
-
 
 <table>
   <tr>
