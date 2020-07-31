@@ -1,5 +1,8 @@
 # **Survey Solutions desde cero: Creando encuestas profesionales.**
 
+## Indice
+
+- [**Crear un cuestionario / Create new**](#crear-un-cuestionario--create-new)
 
 ## **¿Qué es Survey Solutions?**
 
