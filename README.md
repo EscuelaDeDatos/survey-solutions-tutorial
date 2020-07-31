@@ -190,8 +190,6 @@ Al escribir las reglas podemos usar las funciones aritméticas básicas: suma, r
   </tr>
 </table>
 
-
- \
 Ahora apliquemos esto a nuestro cuestionario.
 
 <p align="center">
