@@ -267,8 +267,6 @@ Estas son otras funciones que pueden usarse en combinación con las anteriores y
   </tr>
 </table>
 
-
- \
 Continuemos con nuestro ejemplo. Ahora vamos a agregar una segunda regla de validación para la misma pregunta: **Vivienda == 3 ? Dormitorios==1 : Dormitorios>0**. Ésta regla indicará que, si el **tipo de vivienda** es **“Cuarto” (opción 3)**, el **número de cuartos que usa el núcleo encuestado** debe ser igual a 1, y de lo contrario debe ser siempre mayor que 0. En la imagen 10 podemos ver también el mensaje de error que se mostrará si se ingresa algún valor erróneo al llenar la encuesta.
 
 Con esto, ya hemos creado todas las preguntas que va a tener nuestro cuestionario, pero antes de pasar al siguiente elemento del cuestionario, vamos a hablar de una última característica de las preguntas: el **alcance de la pregunta** (“Question Scope”). Esta opción, situada en la parte inferior derecha, sirve para indicar quién debe llenar esta pregunta. La mayoría de las preguntas de un cuestionario van a ser llenadas siempre por el/la encuestador/a, pero también es posible agregar preguntas que deba responder el/la supervisor/a, que estén ocultas, y más importante: **preguntas de identificación.** Las preguntas de identificación son las que sirven para distinguir un cuestionario de otro, como códigos, números de hogar, zona geográfica u otros similares. Es importante mencionar que todo cuestionario debe tener por lo menos una pregunta de identificación. En el caso de nuestro ejemplo, vamos a seleccionar la pregunta del **número de hogar** como pregunta de identificación, como se muestra en la imagen siguiente en la esquina inferior derecha.
