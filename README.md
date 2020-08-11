@@ -1,9 +1,5 @@
 # **Survey Solutions desde cero: Creando encuestas profesionales.**
 
-## Indice
-
-- [**Crear un cuestionario / Create new**](#crear-un-cuestionario--create-new)
-
 ## **¿Qué es Survey Solutions?**
 
 Survey Solutions es un software gratuito desarrollado por el Banco Mundial para **recolección de datos en campo a través de cuestionarios digitales** aplicables con cualquier dispositivo móvil. Es una plataforma que contiene diferentes herramientas para diseñar, probar y aplicar encuestas de todo tipo. Las herramientas que integran el ecosistema de Survey Solutions son: Designer, Tester, Headquarters e Interviewer. Ya que el objetivo de este artículo es enseñarte cómo diseñar y probar tu propio cuestionario, nos enfocaremos principalmente en **Designer**.
